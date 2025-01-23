@@ -12,17 +12,19 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          { text: 'Introduction', link: '/' },
-          { text: 'Quick Start', link: '/quick-start' },
-          { text: 'How it Works', link: '/how-it-works' },
+          { text: 'Introduction', link: '/getting-started/introduction' },
+          { text: 'Quick Start', link: '/getting-started/quick-start' },
+          { text: 'How it Works', link: '/getting-started/how-it-works' },
         ]
       },
       {
         text: 'Core Concepts',
         items: [
-          { text: 'Normalizers', link: '/normalizers' },
-          { text: 'Filter Operations', link: '/filter-operations' },
-          { text: 'Filter Inputs', link: '/filter-inputs' },
+          { text: 'Authorization', link: '/concepts/authorization' },
+          { text: 'Columns', link: '/concepts/columns' },
+          { text: 'Normalizers', link: '/concepts/normalizers' },
+          { text: 'Filter Operations', link: '/concepts/filter-operations' },
+          { text: 'Filter Inputs', link: '/concepts/filter-inputs' },
         ]
       }
     ],

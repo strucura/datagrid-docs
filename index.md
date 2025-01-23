@@ -1,28 +1,24 @@
- # Introduction
+---
+layout: home
 
-<div style="display: flex; gap: 10px; margin-top: 15px">
-  <a href="https://packagist.org/packages/strucura/datagrids">
-    <img src="https://img.shields.io/packagist/v/strucura/datagrids.svg?style=flat-square" alt="Latest Version on Packagist">
-  </a>
-  <a href="https://github.com/strucura/datagrids/actions?query=workflow%3Arun-tests+branch%3Amaster">
-    <img src="https://img.shields.io/github/actions/workflow/status/strucura/datagrids/run-tests.yml?branch=master&label=tests&style=flat-square" alt="GitHub Tests Action Status">
-  </a>
-  <a href="https://github.com/strucura/datagrids/actions?query=workflow%3A'Fix+PHP+code+style+issues'+branch%3Amaster">
-    <img src="https://img.shields.io/github/actions/workflow/status/strucura/datagrids/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square" alt="GitHub Code Style Action Status">
-  </a>
-  <a href="https://packagist.org/packages/strucura/datagrids">
-    <img src="https://img.shields.io/packagist/dt/strucura/datagrids.svg?style=flat-square" alt="Total Downloads">
-  </a>
-</div>
-
-DataGrids is a versatile package designed for Laravel applications, providing a straightforward and front-end
-agnostic solution for creating and managing data grids. It simplifies the process of displaying and filtering data,
-making it easier for developers to implement complex data management features without extensive coding. The package
-supports automatic discovery and registration of data grids, ensuring seamless integration into existing projects.
-With built-in support for various data normalizations and filtering options, DataGrids enhances the efficiency and
-functionality of data-driven applications.
-
-## Database Compatibility
-
-By default, the filter operations are designed to work with MariaDB and MySQL databases. However, you should still be able
-to leverage the package with other database systems by implementing custom filter operations that suit your database's syntax.
+hero:
+  name: DataGrids
+  text: Effortless Data Grid Management for Laravel
+  image:
+    src: /logo.png
+    alt: VitePress
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /getting-started/introduction
+    - theme: alt
+      text: How It Works
+      link: /getting-started/how-it-works
+features:
+  - title: Simplified Data Grids
+    details: Create and manage data grids with ease, simplifying the process of displaying and filtering data in Laravel applications.
+  - title: Customizable Filters and Filter Sets
+    details: Implement custom filter operations and filter sets to suit your database's syntax and enhance data management capabilities.
+  - title: Normalized Data Handling
+    details: Normalize data for consistent display and filtering, ensuring seamless integration with front-end applications.
+---

@@ -4,7 +4,6 @@
 
 Normalizers are used to perform data manipulations on the value of a filter before applying it to the query. They ensure that the filter values are in the correct format and type required by the database query. Value normalizers are registered in the `config/datagrids.php` file under the `normalizers` key. Each normalizer class must implement the `NormalizerContract` interface.
 
-## Use Case
 Consider a scenario where you have a data grid that filters user records based on their active status. The filter input might come from a form where the user selects "Active" or "Inactive" from a dropdown. The form submission sends these values as strings ('true' or 'false'). The BooleanNormalizer ensures that these string values are converted to actual boolean types (true or false) before applying the filter to the database query. This conversion is crucial for the database to correctly interpret and apply the filter, ensuring accurate query results.
 
 ## Configuration
