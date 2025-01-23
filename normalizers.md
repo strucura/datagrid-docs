@@ -1,5 +1,7 @@
 # Normalizers
 
+[[toc]]
+
 Normalizers are used to perform data manipulations on the value of a filter before applying it to the query. They ensure that the filter values are in the correct format and type required by the database query. Value normalizers are registered in the `config/datagrids.php` file under the `normalizers` key. Each normalizer class must implement the `NormalizerContract` interface.
 
 ## Use Case

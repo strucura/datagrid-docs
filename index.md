@@ -1,6 +1,5 @@
  # Introduction
 
-
 <div style="display: flex; gap: 10px; margin-top: 15px">
   <a href="https://packagist.org/packages/strucura/datagrids">
     <img src="https://img.shields.io/packagist/v/strucura/datagrids.svg?style=flat-square" alt="Latest Version on Packagist">
@@ -22,3 +21,8 @@ making it easier for developers to implement complex data management features wi
 supports automatic discovery and registration of data grids, ensuring seamless integration into existing projects.
 With built-in support for various data normalizations and filtering options, DataGrids enhances the efficiency and
 functionality of data-driven applications.
+
+## Database Compatibility
+
+By default, the filter operations are designed to work with MariaDB and MySQL databases. However, you should still be able
+to leverage the package with other database systems by implementing custom filter operations that suit your database's syntax.
