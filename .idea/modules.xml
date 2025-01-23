@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/datagrid-docs.iml" filepath="$PROJECT_DIR$/.idea/datagrid-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datagrids/.idea/datagrids.iml" filepath="$PROJECT_DIR$/../datagrids/.idea/datagrids.iml" />
     </modules>
   </component>
 </project>
