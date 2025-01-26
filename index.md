@@ -5,7 +5,7 @@ hero:
   name: DataGrids
   text: Effortless Data Grid Management for Laravel
   image:
-    src: /table.png
+    src: /datagrid.png
     alt: DataGrids
   actions:
     - theme: brand
