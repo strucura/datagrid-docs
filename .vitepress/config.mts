@@ -26,6 +26,12 @@ export default defineConfig({
           { text: 'Filter Operations', link: '/concepts/filter-operations' },
           { text: 'Filter Inputs', link: '/concepts/filter-inputs' },
         ]
+      },
+      {
+        text: 'Packages',
+        items: [
+          { text: 'SDK', link: '/packages/datagrids-sdk' },
+        ]
       }
     ],
 
