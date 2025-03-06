@@ -28,14 +28,17 @@ Here is how the discovery process is set up:
 <?php
 
 return [
-    'discovery' => [
-        'paths' => [
-            app_path(''),
-        ],
-        'conditions' => [
-            ConditionBuilder::create()
-                ->classes()
-                ->extending(AbstractDataGrid::class),
+    'route_registration' => [
+        'enabled' => true,
+        'discovery' => [
+            'paths' => [
+                app_path(''),
+            ],
+            'conditions' => [
+                ConditionBuilder::create()
+                    ->classes()
+                    ->extending(AbstractDataGrid::class),
+            ],
         ],
     ],
 ]
