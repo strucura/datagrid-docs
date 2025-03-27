@@ -24,7 +24,6 @@ export default defineConfig({
           { text: 'Columns', link: '/concepts/columns' },
           { text: 'Normalizers', link: '/concepts/normalizers' },
           { text: 'Filter Operations', link: '/concepts/filter-operations' },
-          { text: 'Filter Inputs', link: '/concepts/filter-inputs' },
         ]
       },
       {
