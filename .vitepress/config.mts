@@ -30,7 +30,7 @@ export default defineConfig({
       {
         text: 'Packages',
         items: [
-          { text: 'SDK', link: '/packages/datagrids-sdk' },
+          { text: 'Bookmarks', link: '/packages/bookmarks' },
         ]
       }
     ],
