@@ -69,17 +69,6 @@ defines the conditions it can handle and the logic to apply those conditions to 
 | LessThanFilterOperation             | Checks if a value is less than the specified value.                |
 | LessThanOrEqualToFilterOperation    | Checks if a value is less than or equal to the specified value.    |
 
-### Dates
-
-| Filter Operation              | Description                                          |
-|-------------------------------|------------------------------------------------------|
-| DateAfterFilterOperation      | Checks if a date is after the specified date.        |
-| DateBeforeFilterOperation     | Checks if a date is before the specified date.       |
-| DateIsFilterOperation         | Checks if a date is equal to the specified date.     |
-| DateIsNotFilterOperation      | Checks if a date is not equal to the specified date. |
-| DateOnOrBeforeFilterOperation | Checks if a date is on or before the specified date. |
-| DateOnOrAfterFilterOperation  | Checks if a date is on or after the specified date.  |
-
 ### Sets
 
 | Filter Operation     | Description                                                |
