@@ -16,17 +16,9 @@ The filter operations are configured in the `config/datagrids.php` file:
 
 return [
     'filter_operations' => [
-        // Equality
+         // Equality
         EqualsFilterOperation::class,
         DoesNotEqualFilterOperation::class,
-
-        // Dates
-        DateAfterFilterOperation::class,
-        DateBeforeFilterOperation::class,
-        DateIsFilterOperation::class,
-        DateIsNotFilterOperation::class,
-        DateOnOrBeforeFilterOperation::class,
-        DateOnOrAfterFilterOperation::class,
 
         // In
         InFilterOperation::class,

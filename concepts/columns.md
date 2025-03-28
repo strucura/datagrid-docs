@@ -77,12 +77,3 @@ To disable filtering for a column:
 ```php
 $column->withoutFiltering();
 ```
-
-### Adding Prefix or Postfix
-
-To add a prefix or postfix to the column values:
-
-```php
-$column->prefix('Prefix');
-$column->postfix('Postfix');
-```
