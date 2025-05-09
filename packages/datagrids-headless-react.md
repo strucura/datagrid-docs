@@ -40,7 +40,7 @@ const {
   goToNextPage,
   goToPreviousPage,
   goToPage,
-  hasNextPage:    
+  hasNextPage,    
   hasPreviousPage
  } = useDataGrid({
   schema, // Schema definition for the DataGrid provided by the backend.
