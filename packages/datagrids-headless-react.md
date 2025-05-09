@@ -6,8 +6,6 @@ The **DataGrids Headless React** package provides a flexible and front-end agnos
 
 This package is designed to work with a backend that adheres to the DataGrids schema and API conventions.
 
----
-
 ## Installation
 
 Install the package via npm:
