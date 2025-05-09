@@ -30,7 +30,7 @@ export default defineConfig({
       {
         text: 'Packages',
         items: [
-          { text: 'Bookmarks', link: '/packages/bookmarks' },
+          { text: 'Headless React', link: '/packages/datagrids-headless-react' },
         ]
       }
     ],
