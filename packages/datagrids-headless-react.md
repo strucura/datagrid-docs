@@ -85,7 +85,7 @@ const {
   toggleRowSelection,
   runBulkAction,
   isRunningBulkAction,
-} = useInlineAction({
+} = useBulkAction({
   schema, // Schema definition for the DataGrid provided by the backend.
 });
 ```
