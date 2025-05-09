@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../datagrids" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../datagrids-headless-react" vcs="Git" />
   </component>
 </project>

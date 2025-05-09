@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/datagrid-docs.iml" filepath="$PROJECT_DIR$/.idea/datagrid-docs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../datagrids/.idea/datagrids.iml" filepath="$PROJECT_DIR$/../datagrids/.idea/datagrids.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datagrids-headless-react/.idea/datagrids-headless-react.iml" filepath="$PROJECT_DIR$/../datagrids-headless-react/.idea/datagrids-headless-react.iml" />
     </modules>
   </component>
 </project>
